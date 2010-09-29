@@ -28,7 +28,8 @@ h5 { font-size: 1.37em; line-height: 1.4em; }
 h6 { font-size: 1.12em; line-height: 1.4em; }
 
 h2 {
-  border-bottom: 1px dotted #4c4b4e;
+  color: #999;
+  border-bottom: 1px dotted #999;
   margin: 20px 0;
 }
 
