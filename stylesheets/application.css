@@ -50,6 +50,10 @@ a:hover, a:active {
 p { margin-bottom: 1.0em; }
 * p:last-child { margin-bottom: 0; }
 
+.grrrey {
+  color: #999;
+}
+
 ul { list-style: outside disc; }
 li { margin-left: 1.0em; }
 
