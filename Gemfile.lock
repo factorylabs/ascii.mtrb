@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/GnomesLab/liquid.git
+  remote: git://github.com/factorylabs/liquid.git
   revision: 912871253c4b7fcb236d524c6b2880c394cef4c6
   branch: v2.2.5.beta
   specs:
