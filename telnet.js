@@ -22,8 +22,8 @@ var server = tcp.createServer(function(socket) {
 
 				socket.interval = null;
 
-        socket.write('rnrnrnrnrnrnrnrn     *****                                          ASCII.FACTORYLABS.COM                                           *****     rnrnrnrnrnrnrnrn');
-        socket.write('rnrnrnrnrnrnrnrn     *****     Resize your terminal to 180x55 or larger and strap yourself in.  Things are about to get Orange.     *****     rnrnrnrnrnrnrnrn');
+        socket.write('\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n     *****                                          ASCII.FACTORYLABS.COM                                           *****     \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
+        socket.write('\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n     *****     Resize your terminal to 180x55 or larger and strap yourself in.  Things are about to get Orange.     *****     \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
 
         setTimeout(function() {
             var dataChunks = [];
@@ -63,4 +63,4 @@ var server = tcp.createServer(function(socket) {
     });
 
 });
-server.listen(5000, "localhost");
+server.listen(5000);
