@@ -1,1 +1,7 @@
 destination: public
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - deploy
+    - vendor
+    - *.ascii
