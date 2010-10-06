@@ -41,22 +41,16 @@ var server = tcp.createServer(function (socket) {
 			} else {
 				clearInterval(interval);
 				setTimeout(function() {
-					socket.write('\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n     *****     Why not check out another video?  Telnet to ascii.factorylabs.com, port 5001     *****     \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
+					socket.write('\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n     *****     Why not check out another video?  Telnet to ascii.factorylabs.com, port 5000     *****     \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
 								socket.end();
 				}, 10000);
 			}
 		}, 40);
 	}, 10000);
-				
-	// readStream.addListener("end", function(str) {
-	// 	socket.end();
-	// });
-	// sys.pump(readStream, socket, function(err) {
-	// 	sys.print("Done!",err);
-	// });
+
   });
   socket.on("end", function () {
     socket.end();
   });
 });
-server.listen(7000, "localhost");
+server.listen(5000, "localhost");
