@@ -24,6 +24,8 @@ GEM
       jekyll
       rack
     syntax (1.0.0)
+    unicorn (1.1.4)
+      rack
 
 PLATFORMS
   ruby
@@ -32,3 +34,4 @@ DEPENDENCIES
   bundler
   liquid!
   rack-jekyll
+  unicorn
