@@ -1,5 +1,5 @@
 GIT
-  remote: http://github.com/GnomesLab/liquid.git
+  remote: git://github.com/GnomesLab/liquid.git
   revision: 3162b212ee0143269be67fc72f3e6e9fceed4c63
   tag: v2.2.4
   specs:
