@@ -1,0 +1,39 @@
+--- 
+dependencies: 
+  rack-jekyll: 
+    group: 
+    - :default
+    version: ">= 0"
+  liquid: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- fast-stemmer: 
+    version: 1.0.0
+- classifier: 
+    version: 1.3.3
+- directory_watcher: 
+    version: 1.3.2
+- liquid: 
+    version: 2.2.4
+    source: 0
+- syntax: 
+    version: 1.0.0
+- maruku: 
+    version: 0.6.0
+- jekyll: 
+    version: 0.7.0
+- rack: 
+    version: 1.2.1
+- rack-jekyll: 
+    version: 0.3.5
+hash: 57e846ac4604bf5874e455052130516a9423e2e5
+sources: 
+- Git: 
+    uri: http://github.com/GnomesLab/liquid.git
+    tag: v2.2.4
+    git: http://github.com/GnomesLab/liquid.git
+    ref: 3162b212ee0143269be67fc72f3e6e9fceed4c63
+- Rubygems: 
+    uri: http://gemcutter.org
