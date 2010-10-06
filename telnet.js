@@ -42,8 +42,8 @@ var server = tcp.createServer(function (socket) {
 				clearInterval(interval);
 				setTimeout(function() {
 					socket.write('\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n     *****     Why not check out another video?  Telnet to ascii.factorylabs.com, port 5001     *****     \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
+								socket.end();
 				}, 10000);
-				socket.end();
 			}
 		}, 40);
 	}, 10000);
