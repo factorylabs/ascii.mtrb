@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/GnomesLab/liquid.git
-  revision: 3162b212ee0143269be67fc72f3e6e9fceed4c63
-  tag: v2.2.4
+  revision: 912871253c4b7fcb236d524c6b2880c394cef4c6
+  branch: v2.2.5.beta
   specs:
-    liquid (2.2.4)
+    liquid (2.2.5.beta)
 
 GEM
   remote: http://rubygems.org/
