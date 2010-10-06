@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/factorylabs/liquid.git
-  revision: 912871253c4b7fcb236d524c6b2880c394cef4c6
-  branch: v2.2.5.beta
+  revision: e5eb7e24f03c2a03767123e024cee476bcebde1e
+  branch: 2-2-stable
   specs:
     liquid (2.2.5.beta)
 
