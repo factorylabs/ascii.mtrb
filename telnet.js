@@ -43,7 +43,7 @@ var server = tcp.createServer(function(socket) {
                 if (chunk) {
                     socket.write(chunk);
                 } else {
-                    clearInterval(interval);
+                    clearInterval(socket.interval);
                     setTimeout(function() {
                         socket.write('rnrnrnrnrnrnrnrn     *****     Why not check out another video?  Telnet to ascii.factorylabs.com, port 5000     *****     rnrnrnrnrnrnrnrn');
                         socket.end();
