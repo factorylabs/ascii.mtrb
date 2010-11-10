@@ -15,7 +15,7 @@ var videos = ['headphones',
 
 var server = tcp.createServer(function(socket) {
     socket.setEncoding("utf8");
-		
+
     socket.on("connect",
     function() {
         sys.log('connected!');
@@ -28,7 +28,7 @@ var server = tcp.createServer(function(socket) {
         setTimeout(function() {
             var dataChunks = [];
             var videoName = videos[randInt(videos.length)];
-            var readStream = fs.createReadStream('videos/' + videoName + '.ascii', {
+            var readStream = fs.createReadStream(__dirname + '/videos/' + videoName + '.ascii', {
                 'flags': 'r',
                 'encoding': 'ascii',
                 'bufferSize': 55 * 180
