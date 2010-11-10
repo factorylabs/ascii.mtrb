@@ -1,5 +1,7 @@
 destination: public
 exclude:
+    - config.ru
+    - telnet.js
     - Gemfile
     - Gemfile.lock
     - deploy
