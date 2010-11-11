@@ -5,3 +5,4 @@ gem 'liquid', :git => 'git://github.com/factorylabs/liquid.git', :branch => '2-2
 gem 'jekyll'
 gem 'rack-try_static'
 gem 'engineyard'
+gem 'eventmachine'

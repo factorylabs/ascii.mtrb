@@ -22,6 +22,7 @@ GEM
       escape (~> 0.0.4)
       json_pure
     escape (0.0.4)
+    eventmachine (0.12.10)
     fast-stemmer (1.0.0)
     highline (1.6.1)
     jekyll (0.7.0)
@@ -47,6 +48,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   engineyard
+  eventmachine
   jekyll
   liquid!
   rack-try_static
